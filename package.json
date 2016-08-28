@@ -1,0 +1,31 @@
+{
+  "name": "example-codecov.io",
+  "version": "1.0.0",
+  "description": "Example of codecov.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- --require intelli-espower-loader test/*.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyajan/example-codecov.io.git"
+  },
+  "keywords": [
+    "codecov.io"
+  ],
+  "author": "miyajan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miyajan/example-codecov.io/issues"
+  },
+  "homepage": "https://github.com/miyajan/example-codecov.io#readme",
+  "devDependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "power-assert": "^1.4.1"
+  }
+}
