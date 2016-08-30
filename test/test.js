@@ -14,4 +14,8 @@ describe('fizzbuzz', function() {
     it('returns buzz when divided by 5', function() {
         assert(fizzbuzz(10) === 'buzz');
     });
+
+    it('returns number when not divided by 3 and 5', function() {
+        assert(fizzbuzz(7) === 7);
+    });
 });
